@@ -31,21 +31,23 @@ h1, h2, h3 {
 
 .nav li {
     list-style: none;
-    background-color: green;
-    padding: 10px 10px;
+
 }
 
 .nav li a {
     text-align: left;
     font-weight: bold;
+    background-color: green;
+    padding: 10px 10px;
+    display: block;
 }
 
-.nav li.active {
+.nav li a.active {
     border-right: 3px solid red;
     background-color: rgb(176, 225, 170);
 }
 
-.nav li:hover {
+.nav li a:hover {
     background-color: aliceblue;
 }
 
