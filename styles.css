@@ -69,3 +69,8 @@ p {
 ul, ol {
     margin: 5px 15px;
 }
+
+.odin {
+    display: block;
+    transform: translateY(25vh);
+}
