@@ -1,6 +1,6 @@
 .main {
     max-width: 50%;
-    height: 80vh;
+    min-height: 80vh;
     margin: 2% auto;
     border: 2px solid;
     display: flex;
@@ -9,10 +9,13 @@
 .nav {
     flex-basis: 15%;
     background-color: green;
+    padding-bottom: 20px;
 }
 
 .content {
     flex-basis: 85%;
+    background-color: antiquewhite;
+    padding-bottom: 20px;
 }
 
 h1, h2, h3 {
@@ -56,4 +59,13 @@ img {
     max-width: 60%;
     height: auto;
     margin: 0 auto;
+}
+
+p {
+    margin: 5px 15px;
+    text-align-last: center;
+}
+
+ul, ol {
+    margin: 5px 15px;
 }
